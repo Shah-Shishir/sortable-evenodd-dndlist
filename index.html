@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sortable Even Odd D&D List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="info">
+      <h3>Sortable Even-Odd Drag and Drop List</h3>
+      <small> (Drag any number to the bottom of the suitable list) </small>
+    </div>
+    <div class="wrapper">
+      <div class="list-wrapper">
+        <h4>Number List</h4>
+        <ul id="number-list"></ul>
+      </div>
+      <div class="list-wrapper">
+        <h4>Even List</h4>
+        <small id="even-empty"> Empty list. </small>
+        <ul id="even-list"></ul>
+      </div>
+      <div class="list-wrapper">
+        <h4>Odd List</h4>
+        <small id="odd-empty"> Empty list. </small>
+        <ul id="odd-list"></ul>
+      </div>
+    </div>
+    <div class="toast">
+      <div class="toast-text"></div>
+      <div class="bottom-line"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
