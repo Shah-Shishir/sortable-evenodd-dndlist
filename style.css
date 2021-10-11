@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 120px);
   grid-gap: 20px;
 }
 .wrapper .list-wrapper {
@@ -30,6 +30,9 @@
   padding: 10px;
   height: fit-content;
   width: 120px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .wrapper .list-wrapper h4 {
   text-align: center;

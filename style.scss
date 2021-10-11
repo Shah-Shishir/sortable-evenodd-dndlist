@@ -9,11 +9,13 @@
 .info {
   text-align: center;
   margin-bottom: 10px;
+
   h3 {
     margin-top: 10px;
     margin-bottom: 0;
     font-size: 18px;
   }
+
   small {
     color: red;
   }
@@ -23,29 +25,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 120px);
   grid-gap: 20px;
+
   .list-wrapper {
     border: 1px solid #a7a4a4;
     padding: 10px;
     height: fit-content;
     width: 120px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
     h4 {
       text-align: center;
       margin-top: 0;
       margin-bottom: 10px;
       border-bottom: 1px solid #a7a4a4;
     }
+
     ul {
       list-style: none;
       margin-top: 0;
       margin-bottom: 5px;
       padding-left: 0;
+
       li {
         text-align: center;
         cursor: move;
         font-size: 14px;
         margin-bottom: 10px;
+
         &:last-child {
           margin-bottom: 0;
         }
@@ -63,12 +73,14 @@
   background: #fafafa;
   box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
   cursor: default;
+
   .toast-text {
     display: inline-block;
     padding: 5px 12px;
     color: rgba(0, 0, 0, 0.87);
     font-size: 14px;
   }
+
   .bottom-line {
     height: 2px;
     background: rgba(0, 0, 0, 0.54);
